@@ -1,0 +1,1 @@
+function exemplo() =  'Oi, eu sou uma função expressa'
