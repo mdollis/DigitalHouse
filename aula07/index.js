@@ -75,32 +75,32 @@ let pets = [
    
 // ListarNomePets()
 
-//Desafio 2
-function ListarNomeDonoPets(){
-  for ( var listar of pets){
-    console.log('Dono: '+listar.nomeDono)
-  }
-}
-ListarNomeDonoPets()
+// //Desafio 2
+// function ListarNomeDonoPets(){
+//   for ( var listar of pets){
+//     console.log('Dono: '+listar.nomeDono)
+//   }
+// }
+// ListarNomeDonoPets()
 
 // //Desafio 3
-// function ListarTipo(param){
-//   var mostrar = pets.filter(function(elem){
-//     return elem.tipo == param })
-//   console.log(mostrar) 
-// }
-// ListarTipo('ave')
 
-// //Desafio 4
-// function DataDeCadastro(){
-//   var guardar = pets.map(function(elem){
-//     var DataCadastro = new Date()
-//     elem["DataCadastro"] = DataCadastro
-//     return elem
-//   })
-//   console.log(guardar)
+// function ListarTipo(param){
+//   var filtrados = pets.filter(pet => {
+//     return pet.tipo == param })
+//  console.log(filtrados)
 // }
-// DataDeCadastro()
+
+//Desafio 4
+function DataDeCadastro(){
+  var guardar = pets.map(function(elem){
+    var DataCadastro = new Date()
+    elem["DataCadastro"] = DataCadastro
+    return elem
+  })
+  console.log(guardar)
+}
+DataDeCadastro()
 
 // // //Desasfio 5
 
