@@ -65,23 +65,23 @@ let pets = [
       },
   ]
 
-//desafio 1  
+// //desafio 1  
 
-function ListarNomePets(){
-  pets.forEach(pet => {
-    console.log('Nome: '+pet.nome);
-  })
-}
-   
-ListarNomePets()
-
-// //Desafio 2
-// const ListarNomeDonoPets = () => {
-//   for ( var listar of pets){
-//     console.log(listar.nomeDono)
-//   }
+// function ListarNomePets(){
+//   pets.forEach(pet => {
+//     console.log('Nome: '+pet.nome);
+//   })
 // }
-// ListarNomeDonoPets()
+   
+// ListarNomePets()
+
+//Desafio 2
+function ListarNomeDonoPets(){
+  for ( var listar of pets){
+    console.log('Dono: '+listar.nomeDono)
+  }
+}
+ListarNomeDonoPets()
 
 // //Desafio 3
 // function ListarTipo(param){
