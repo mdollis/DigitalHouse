@@ -104,16 +104,26 @@ DataDeCadastro()
 
 // // //Desasfio 5
 
-// // function ListaDadosPet(pet){
-// //   let {nome} = pet
-// //   return 
-// // }
-
-// // console.log(ListaDadosPet())
-
-
-
-// for (let index = 0; index < array.length; index++) {
-//   const element = array[index];
-  
+// const listarDadosPet = (objPet) => {
+//   const { nome, nomeDono, idade, tipo, raca, peso, genero, cor, vacinado } = objPet;
+//   return console.log(
+//       `Nome: ${nome}
+// Nome do dono: ${nomeDono}
+// Idade: ${idade}
+// Tipo: ${tipo}
+// Raça: ${raca}
+// Peso: ${peso}
+// Genero: ${genero}
+// Cor: ${cor}
+// Está vacinado? ${vacinado}`
+//   )
 // }
+
+
+// // desafio 6
+// const listarDadosDoPet = (Array, callback) => {
+//   for (const pet of Array) {
+//       callback(pet)
+//   }
+// }
+// listarDadosDoPet(pets, listarDadosPet)
