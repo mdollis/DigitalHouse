@@ -91,16 +91,16 @@ let pets = [
 //  console.log(filtrados)
 // }
 
-//Desafio 4
-function DataDeCadastro(){
-  var guardar = pets.map(function(elem){
-    var DataCadastro = new Date()
-    elem["DataCadastro"] = DataCadastro
-    return elem
-  })
-  console.log(guardar)
-}
-DataDeCadastro()
+// //Desafio 4
+// function DataDeCadastro(){
+//   var guardar = pets.map(function(elem){
+//     var DataCadastro = new Date()
+//     elem["DataCadastro"] = DataCadastro
+//     return elem
+//   })
+//   console.log(guardar)
+// }
+// DataDeCadastro()
 
 // // //Desasfio 5
 
@@ -120,10 +120,10 @@ DataDeCadastro()
 // }
 
 
-// // desafio 6
-// const listarDadosDoPet = (Array, callback) => {
-//   for (const pet of Array) {
-//       callback(pet)
-//   }
-// }
-// listarDadosDoPet(pets, listarDadosPet)
+// desafio 6
+const listarDadosDoPet = (Array,callback) => {
+  for (const pet of Array) {
+      callback(pet)
+  }
+}
+listarDadosDoPet(pets,listarDadosPet)
