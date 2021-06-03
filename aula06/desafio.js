@@ -101,14 +101,14 @@ function DataDeCadastro(){
 }
 DataDeCadastro()
 
-// //Desasfio 5
+//Desasfio 5
 
-// function ListaDadosPet(pet){
-//   let {nome} = pet
-//   return 
-// }
+function ListaDadosPet(pet){
+  let {nome} = pet
+  return 
+}
 
-// console.log(ListaDadosPet())
+console.log(ListaDadosPet())
 
 
 
