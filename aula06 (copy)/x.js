@@ -3,7 +3,7 @@ const petsJson = require('./json.json')
 //console.log(petsJson.pets)
 
 function atualizarJson(){
-fs.writeFileSync('./json.json', JSON.stringify(petsJson,null,2), 'utf-8')
+    fs.writeFileSync('./json2.json', JSON.stringify(petsJson,null,2), 'utf-8')
 }
 
 function DataDeCadastro(){

@@ -1,0 +1,79 @@
+{
+  "pets": [
+    {
+      "nome": "Yoshi",
+      "nomeDono": "Victor",
+      "idade": 7,
+      "tipo": "Cachorro",
+      "raca": "Akita Inu",
+      "peso": 40,
+      "genero": "Macho",
+      "cor": "ruivo",
+      "vacinado": true,
+      "DataCadastro": "2021-06-04T23:55:34.962Z"
+    },
+    {
+      "nome": "Pituco",
+      "nomeDono": "Victor",
+      "idade": 2,
+      "tipo": "ave",
+      "raca": "Calopsita",
+      "peso": 0.5,
+      "genero": "Macho",
+      "cor": "cinza",
+      "vacinado": true,
+      "DataCadastro": "2021-06-04T23:55:34.963Z"
+    },
+    {
+      "nome": "Pitty",
+      "nomeDono": "Rose",
+      "idade": 2,
+      "tipo": "ave",
+      "raca": "Agapornis",
+      "peso": 0.5,
+      "genero": "Fêmea",
+      "cor": "verde",
+      "vacinado": true,
+      "DataCadastro": "2021-06-04T23:55:34.963Z"
+    },
+    {
+      "nome": "Bixano",
+      "nomeDono": "Rose",
+      "idade": 10,
+      "tipo": "Cachorro",
+      "raca": "PastorAlemão",
+      "peso": 0.5,
+      "genero": "Fêmea",
+      "cor": "Amarelo",
+      "vacinado": true,
+      "DataCadastro": "2021-06-04T23:55:34.963Z"
+    }
+  ],
+  "teste": [
+    {
+      "prop1": "texto1",
+      "prop2": "texto2",
+      "DataCadastro": "2021-06-05T00:34:06.620Z"
+    },
+    {
+      "prop1": "texto1a",
+      "prop2": "texto2a",
+      "DataCadastro": "2021-06-05T00:34:06.620Z"
+    }
+  ],
+  "carro": [
+    {
+      "prop1": "texto1a",
+      "prop2": "texto2a",
+      "DataCadastro": "2021-06-05T00:02:16.722Z"
+    },
+    {
+      "modelo": "Polo",
+      "montadora": "VW"
+    },
+    {
+      "modelo": "Hilux",
+      "montadora": "Toyota"
+    }
+  ]
+}
